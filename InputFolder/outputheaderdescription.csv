@@ -1,0 +1,80 @@
+Header,Description,Units
+p_EmissionRate,Emission rate reported by performer.,g/hr
+p_EmissionRateLower,Lower limit of emission rate reported by performer (emission rate - uncertainty).,g/hr
+p_EmissionRateUpper,Upper limit of emission rate reported by performer (emission rate + uncertainty).,g/hr
+p_EmissionSourceID,Emission source ID reported by performer.,-
+p_EmissionStartDatetime,Date time (UTC) the emission source started as reported by performer.,YYYY-MM-DD hh:mm:ss (UTC)
+p_EquipmentFacility,Facility that the equipment unit reported by the performer is located on.,-
+p_EquipmentGroup,Equipment group within which the equipment unit reported by the performer is located.,-
+p_EquipmentUnit,Equipment unit reported by the performer.,-
+p_FirstDatetimeSent,Date time (UTC) the first detection report was sent by performer for the reported emission source ID.,YYYY-MM-DD hh:mm:ss (UTC)
+p_Gas,The gas the performer reported.  Emission rates are interpretted as g of this gas per hour.,-
+p_Latitude1,Latitude of emission location or corner of bounding box as reported by performer.,degrees
+p_Latitude2,Latitude of 2nd corner of bounding box as reported by performer.,degrees
+p_Longitude1,Longitude of emission location or corner of bounding box as reported by performer.,degrees
+p_Longitude2,Longitude of second corner of bounding box as reported by performer.,degrees
+p_ReportIDs,"List of detection report IDs with the emission source ID, p_EmissionSourceID.  The time at which the first detection report was sent is used for p_FirstDatetimeSent. All other performer data fields are taken from the last detection report. ",-
+tc_Altitude,Altitude of emission source at the test center measured using WGS-84 height above elipsoid (HAE).,m
+tc_C1_(kg*hrs)/hr:,Total mass released over the control release duration (Kg methane). This was obtained by multiplying tc_C1MassFlow (in kg/hr) by control release duration; tc_ExpDurationHrs (in hrs).,kg CH4
+tc_C1_(kg*mps)/hr:,The metered flowrate in kg/hr methane multiplied by average wind speed (m/s),(kg/hr)*(m/s)
+tc_C1_kg/(hr*mps):,The metered flowrate in kg/hr methane normalized by average wind speed (m/s).,(kg/hr)/(m/s)
+tc_C1MassFlow,Average mass flowrate of methane metered by the test center when the emission point was operational. ,g/hr
+tc_C1MassFlowUncertainty,Uncertainty of mass flowrate of methane metered by the test center when the emission point was operational. ,g/hr
+tc_C2MassFlow,Average mass flowrate of ethane metered by the test center when the emission point was operational. ,g/hr
+tc_C2MassFlowUncertainty,Uncertainty of mass flowrate of ethane metered by the test center when the emission point was operational. ,g/hr
+tc_C3MassFlow,Average mass flowrate of propane metered by the test center when the emission point was operational. ,g/hr
+tc_C3MassFlowUncertainty,Uncertainty of mass flowrate of propane metered by the test center when the emission point was operational. ,g/hr
+tc_C4MassFlow,Average mass flowrate of butane metered by the test center when the emission point was operational. ,g/hr
+tc_C4MassFlowUncertainty,Uncertainty of mass flowrate of butane metered by the test center when the emission point was operational. ,g/hr
+tc_C5MassFlow,Average mass flowrate of pentane metered by the test center when the emission point was operational. ,g/hr
+tc_C5MassFlowUncertainty,Uncertainty of mass flowrate of pentane metered by the test center when the emission point was operational. ,g/hr
+tc_C6MassFlow,Average mass flowrate of hexane + metered by the test center when the emission point was operational. ,g/hr
+tc_C6MassFlowUncertainty,Uncertainty of mass flowrate of hexane + metered by the test center when the emission point was operational. ,g/hr
+tc_Classification,"Classification of controlled release; TP = True Positive, FN = False Negative, FP = False Positive. ",-
+tc_DetLevel,"Precision of TP detections; Equipment Unit, Equipment Group, Facility",-
+tc_EPBFE,"Emission point best flow estimate (EPBFE) during release.  The BFE may be determined from a calibration release, or the release itself. ",slpm whole gas
+tc_EPBFU,"Emission point best flow uncertainty (EPBFU) during release. The BFE may be determined from a calibration release, or the release itself. ",slpm whole gas
+tc_EPDutyCycle,The fraction of the test that the emission point was ON (emitting). ,-
+tc_EPID,The identifier of the unique emisison point at the test center.,-
+tc_EmissionCategory,The category of the controlled release (e.g. FUGITIVE or VENT),-
+tc_EmissionIntent,The intent of the emission controlled release (e.g. Intermittent pneumatic actuator venting),-
+tc_EquipmentGroupID,Identifier of the equipment group which the emission point is located on.,-
+tc_EquipmentType,The type of equipment the source is located on. ,-
+tc_EquipmentUnitID,Identifier of the equipment unit which the emission point is located on.,-
+tc_ExpDurationHrs:,Duration of the experiment,hr
+tc_ExpEndDatetime,Date time (UTC) the experiment ended.,YYYY-MM-DD hh:mm:ss (UTC)
+tc_ExpEPCount:,The number of emission points in an experiment. ,-
+tc_ExperimentID,Unique identifier of an experiment. The experiment is the full time period between tc_ExpStartDatetime and tc_ExpEndDatetime. There may have been zero or more controlled releases during any experiment. ,-
+tc_ExpPAtmAvg:,Average test atmospheric pressure during the experiment.,mbar
+tc_ExpPAtmStd:,Standard deviation of atmospheric pressure during the experiment,mbar
+tc_ExpStartDatetime,Date time (UTC) the experiment started.,YYYY-MM-DD hh:mm:ss (UTC)
+tc_ExpTAtmAvg,Average ambient temperature during the experiment,deg C
+tc_ExpTAtmStd,Standard deviation of ambient temperature during the experiment,deg C
+tc_ExpWindDirAvg,Average wind direction during the experiment,degrees clockwise from North 
+tc_ExpWindDirStd,Standard deviation of wind direction during the experiment.,degrees
+tc_ExpWindSpeedAvg,Average windspeed during the experiment,m/s
+tc_ExpWindSpeedStd,Standard deviation of wind speed during the experiment,m/s
+tc_Latitude,Latitude of emission source at the test center measured using WGS-84,degrees
+tc_LocationStability,Metric calculated from detection reports received for this emission source ID.See test protocol. ,-
+tc_Longitude,Longitude of emission source at the test center measured using WGS-84,degrees
+tc_maxSolar:,The maximum solar irradiation measured at the test center over the controlled release duration.,W/m2
+tc_mBoundingBoxAccuracy:,A true/false value is calculated for each True Positive Detection with a bounding box coordinate set to indicate if the Controlled Release was within the reported bounding box.,
+tc_mClosestSensorName:,The name/tag of the closest sensor to the release point,
+tc_mDetectionTime:,The time between when a Controlled Release was first emitted and when a detection was first reported to the test center.,hr
+tc_mDistanceToClosestSensor:,The distance from the emission source to the closest sensor.,m
+tc_meanSolar:,The mean solar irradiation measured at the test center over the controlled release duration.,W/m2
+tc_minSolar:,The minimum solar irradiation measured at the test center over the controlled release duration.,W/m2
+tc_mLocalizationAccuracy_BoundingBox:,Localization Accuracy is calculated for each True Positive Detection with a bounding box coordinate set as the distance between the center of the reported bounding box and the location where the Controlled Release occurred.,m
+tc_mLocalizationAccuracy_SingleCoord:,Localization Accuracy is calculated for each True Positive Detection with a single coordinate pair as the distance between the reported coordinate and the location where the Controlled Release occurred.,m
+tc_mLocalizationPrecision:,"The level of precision (correctUnit, correctGroup, or correctFacility) to which a true positive detection report by the performer matches a controlled release. ",
+tc_mLocalizationPrecision_BoundingBox:,Localization Precision is calculated for each True Positive Detection with a bounding box coordinate set as the area of the bounding box.,m2
+tc_mQuantificationAccuracyAbs:,Quantification Accuracy is calculated for each True Positive detection as the difference between the emission rate reported and the metered emission rate of the matched controlled release.,g/hr
+tc_mQuantificationAccuracyRel:,"Quantification Accuracy is calculated as a relative difference for each true positive detection as the absolute difference between the emission rate reported and the metered emission rate of the controlled release, normalized by the metered emission rate of the controlled release.",-
+tc_mQuantificationPrecisionAbs:,Quantification Precision is calculated for each true positive detection as the absolute difference between p_EmissionRateLower and p_EmissionRateUpper.,g/hr
+tc_mQuantificationPrecisionRel:,Quantification Precision is calculated for each true positive Detection as the absolute difference between p_EmissionRateLower and p_EmissionRateUpper normalized by the metered emission rate of the matched controlled release.,-
+tc_NMHCMassFlow,Average mass flowrate of non-methane hydrocarbons metered by the test center when the emission point was operational. ,g/hr
+tc_NMHCMassFlowUncertainty,Uncertainty of mass flowrate of non-methane hydrocarbons  metered by the test center when the emission point was operational. ,g/hr
+tc_QCFlags,Quality Control flags thrown by METEC system. Boolean string.,-
+tc_THCMassFlow,Average mass flowrate of total hydrocarbons metered by the test center when the emission point was operational. ,g/hr
+tc_THCMassFlowUncertainty,Uncertainty of mass flowrate of total hydrocarbons  metered by the test center when the emission point was operational. ,g/hr
+timeFromClosestControlledRelease: ,For false positives detections the time to the closest unmatched controlled release is calculated,hr

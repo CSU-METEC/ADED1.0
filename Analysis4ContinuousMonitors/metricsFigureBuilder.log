@@ -1,0 +1,12 @@
+2024-05-20 04:17:32,868 - DEBUG - FigureBuilderTools.MetricsFigureBuilder - Generating the initial alternative POD curve (single - emission rate)
+2024-05-20 04:18:37,796 - DEBUG - FigureBuilderTools.MetricsFigureBuilder - Generating the optimized alternative POD curve (single - emission rate)
+2024-05-20 04:19:47,332 - INFO - FigureBuilderTools.MetricsFigureBuilder - Successfully generated the optimized alternative POD curve (single - emission rate)
+2024-05-20 04:19:47,363 - DEBUG - FigureBuilderTools.MetricsFigureBuilder - Generating the initial alternative POD curve (POD of mass of methane released normed by wind speed)
+2024-05-20 04:21:39,484 - DEBUG - FigureBuilderTools.MetricsFigureBuilder - Generating the optimized alternative POD curve (POD of mass of methane released normed by wind speed)
+2024-05-20 04:23:01,020 - INFO - FigureBuilderTools.MetricsFigureBuilder - Successfully generated the optimized alternative POD curve (POD of mass of methane released normed by wind speed)
+2024-05-20 04:23:04,588 - DEBUG - FigureBuilderTools.MetricsFigureBuilder - Generating the initial alternative POD curve (POD Curve Fitting and Logistic Regression in kg/hr)
+2024-05-20 04:24:14,777 - DEBUG - FigureBuilderTools.MetricsFigureBuilder - Generating the optimized alternative POD curve (POD Curve Fitting and Logistic Regression in kg/hr)
+2024-05-20 04:25:22,074 - INFO - FigureBuilderTools.MetricsFigureBuilder - Successfully generated the optimized alternative POD curve (POD Curve Fitting and Logistic Regression in kg/hr)...
+2024-05-20 04:25:22,102 - DEBUG - FigureBuilderTools.MetricsFigureBuilder - Generating the initial alternative POD curve (POD Curve Fitting and Logistic Regression in hr)
+2024-05-20 04:27:06,787 - DEBUG - FigureBuilderTools.MetricsFigureBuilder - Generating the optimized alternative POD curve (POD Curve Fitting and Logistic Regression in hr)
+2024-05-20 04:28:45,638 - INFO - FigureBuilderTools.MetricsFigureBuilder - Successfully generated the optimized alternative POD curve (POD Curve Fitting and Logistic Regression in hr)

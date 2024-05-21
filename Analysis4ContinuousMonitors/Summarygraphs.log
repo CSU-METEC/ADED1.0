@@ -1,0 +1,18 @@
+2024-05-20 04:15:38,530 - DEBUG - FigureBuilderTools.SummaryGraphs - Plotting a histogram of number of emission points vs emission rate..
+2024-05-20 04:15:39,019 - INFO - FigureBuilderTools.SummaryGraphs - Successfully plotted a histogram of number of emission points vs emission rate..
+2024-05-20 04:15:39,019 - DEBUG - FigureBuilderTools.SummaryGraphs - Plotting a histogram of number of emission points vs equipment group..
+2024-05-20 04:15:39,214 - INFO - FigureBuilderTools.SummaryGraphs - Successfully plotted a histogram of number of emission points vs equipment group..
+2024-05-20 04:15:39,215 - DEBUG - FigureBuilderTools.SummaryGraphs - Plotting a histogram of number of experiments vs experiment duration.
+2024-05-20 04:15:39,442 - INFO - FigureBuilderTools.SummaryGraphs - Successfully plotted a histogram of number of experiments vs experiment duration
+2024-05-20 04:15:39,442 - DEBUG - FigureBuilderTools.SummaryGraphs - Plotting a histogram of number of experiments vs experiment duration.
+2024-05-20 04:15:39,705 - INFO - FigureBuilderTools.SummaryGraphs - Successfully plotted a histogram of number of experiments vs wind direction.
+2024-05-20 04:15:39,705 - DEBUG - FigureBuilderTools.SummaryGraphs - Plotting a histogram of number of experiments vs average windspeed.
+2024-05-20 04:15:39,911 - INFO - FigureBuilderTools.SummaryGraphs - Successfully plotted histogram of number of experiments vs average windspeed..
+2024-05-20 04:15:39,911 - DEBUG - FigureBuilderTools.SummaryGraphs - Plotting a histogram of number of experiments vs average temperature.
+2024-05-20 04:15:40,129 - INFO - FigureBuilderTools.SummaryGraphs - Successfully plotted histogram of number of experiments vs average temperature..
+2024-05-20 04:15:40,129 - DEBUG - FigureBuilderTools.SummaryGraphs - Plotting a histogram of number of experiments vs start time (Hour UTC)
+2024-05-20 04:15:40,339 - INFO - FigureBuilderTools.SummaryGraphs - Successfully plotted a histogram of number of experiments vs start time (Hour UTC)
+2024-05-20 04:15:40,339 - DEBUG - FigureBuilderTools.SummaryGraphs - Plotting a histogram of number of False Positives vs timeFromClosestControlledRelease (hours)
+2024-05-20 04:15:40,534 - INFO - FigureBuilderTools.SummaryGraphs - Successfully plotted a histogram of number of False Positives vs timeFromClosestControlledRelease (hours)
+2024-05-20 04:15:40,534 - DEBUG - FigureBuilderTools.SummaryGraphs - Plotting a histogram of number of TP detections vs Time to detection
+2024-05-20 04:15:40,745 - INFO - FigureBuilderTools.SummaryGraphs - Successfully plotted a histogram of number of TP detections vs Time to detection
